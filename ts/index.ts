@@ -1,26 +1,48 @@
-export enum NumberOfWeiInOne {
-  WEI =          1,
-  KWEI =         1000,
-  ADA =          1000,
-  FEMTOETHER =   1000,
-  MWEI =         1000000,
-  BABBAGE =      1000000,
-  PICOETHER =    1000000,
-  GWEI =         1000000000,
-  SHANNON =      1000000000,
-  NANOETHER =    1000000000,
-  NANO =         1000000000,
-  SZABO =        1000000000000,
-  MICROETHER =   1000000000000,
-  MICRO =        1000000000000,
-  FINNEY =       1000000000000000,
-  MILLIETHER =   1000000000000000,
-  MILLI =        1000000000000000,
-  ETHER =        1000000000000000000,
-  KETHER =       1000000000000000000000,
-  GRAND =        1000000000000000000000,
-  EINSTEIN =     1000000000000000000000,
-  METHER =       1000000000000000000000000,
-  GETHER =       1000000000000000000000000000,
-  TETHER =       1000000000000000000000000000000
-}
+import { Uint256 } from 'pollenium-buttercup'
+
+export const WEI
+  = Uint256.fromNumberString(10, '1')
+export const KWEI
+  = Uint256.fromNumberString(10, '1000')
+export const ADA
+  = Uint256.fromNumberString(10, '1000')
+export const FEMTOETHER
+  = Uint256.fromNumberString(10, '1000')
+export const MWEI
+  = Uint256.fromNumberString(10, '1000000')
+export const BABBAGE
+  = Uint256.fromNumberString(10, '1000000')
+export const PICOETHER
+  = Uint256.fromNumberString(10, '1000000')
+export const GWEI
+  = Uint256.fromNumberString(10, '1000000000')
+export const SHANNON
+  = Uint256.fromNumberString(10, '1000000000')
+export const NANOETHER
+  = Uint256.fromNumberString(10, '1000000000')
+export const NANO
+  = Uint256.fromNumberString(10, '1000000000')
+export const SZABO
+  = Uint256.fromNumberString(10, '1000000000000')
+export const MICROETHER
+  = Uint256.fromNumberString(10, '1000000000000')
+export const MICRO
+  = Uint256.fromNumberString(10, '1000000000000')
+export const FINNEY
+  = Uint256.fromNumberString(10, '1000000000000000')
+export const MILLIETHER
+  = Uint256.fromNumberString(10, '1000000000000000')
+export const MILLI
+  = Uint256.fromNumberString(10, '1000000000000000')
+export const ETHER
+  = Uint256.fromNumberString(10, '1000000000000000000')
+export const GRAND
+  = Uint256.fromNumberString(10, '1000000000000000000000')
+export const EINSTEIN
+  = Uint256.fromNumberString(10, '1000000000000000000000')
+export const METHER
+  = Uint256.fromNumberString(10, '1000000000000000000000000')
+export const GETHER
+  = Uint256.fromNumberString(10, '1000000000000000000000000000')
+export const TETHER
+  = Uint256.fromNumberString(10, '1000000000000000000000000000000')

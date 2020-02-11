@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "node/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "pollenium-buttercup": "^19.2.0"
+  },
   "devDependencies": {
     "tsc": "^1.20150623.0",
     "typescript": "^3.7.5"

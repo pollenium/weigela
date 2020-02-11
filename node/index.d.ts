@@ -1,26 +1,24 @@
-export declare enum NumberOfWeiInOne {
-    WEI = 1,
-    KWEI = 1000,
-    ADA = 1000,
-    FEMTOETHER = 1000,
-    MWEI = 1000000,
-    BABBAGE = 1000000,
-    PICOETHER = 1000000,
-    GWEI = 1000000000,
-    SHANNON = 1000000000,
-    NANOETHER = 1000000000,
-    NANO = 1000000000,
-    SZABO = 1000000000000,
-    MICROETHER = 1000000000000,
-    MICRO = 1000000000000,
-    FINNEY = 1000000000000000,
-    MILLIETHER = 1000000000000000,
-    MILLI = 1000000000000000,
-    ETHER = 1000000000000000000,
-    KETHER = 1e+21,
-    GRAND = 1e+21,
-    EINSTEIN = 1e+21,
-    METHER = 1e+24,
-    GETHER = 1e+27,
-    TETHER = 1e+30
-}
+import { Uint256 } from 'pollenium-buttercup';
+export declare const WEI: Uint256;
+export declare const KWEI: Uint256;
+export declare const ADA: Uint256;
+export declare const FEMTOETHER: Uint256;
+export declare const MWEI: Uint256;
+export declare const BABBAGE: Uint256;
+export declare const PICOETHER: Uint256;
+export declare const GWEI: Uint256;
+export declare const SHANNON: Uint256;
+export declare const NANOETHER: Uint256;
+export declare const NANO: Uint256;
+export declare const SZABO: Uint256;
+export declare const MICROETHER: Uint256;
+export declare const MICRO: Uint256;
+export declare const FINNEY: Uint256;
+export declare const MILLIETHER: Uint256;
+export declare const MILLI: Uint256;
+export declare const ETHER: Uint256;
+export declare const GRAND: Uint256;
+export declare const EINSTEIN: Uint256;
+export declare const METHER: Uint256;
+export declare const GETHER: Uint256;
+export declare const TETHER: Uint256;
